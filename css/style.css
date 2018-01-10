@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+	
+	body {
+	background-image: url(../images/bg.jpg);
+	}
+	p, h3, li{
+	font-family: arial;
+	}
+	header {
+		background-color: white;
+		opacity: .9;
+		padding: 20px;
+		height: 150px;
+		width: 100%;
+		font-size: 50px;
+		box-shadow: 0px 10px 5px;
+		z-index: -1;
+	}
+
+	nav.page-navigation li{
+		list-style-type: none;
+		position: relative;
+		top:80px;
+		right:40px;
+		margin: 10px;
+		background-color: white;
+		color:black;
+		height: auto;
+
+	}
+	nav.page-navigation li a{
+		font-size:20px;
+		align-content: center;
+		text-decoration: none;
+		color: black;
+		padding: 10px;
+
+	}
+	nav.page-navigation li a:hover {
+		text-decoration: none;
+		color: white;
+		background-color: black;
+	}
+
+	h3 {
+		font-size: 20px;
+		font-style: italic;
+		color: white;
+	}
+	p {
+		color: white;
+	}
+	
+	.column {
+		color: white;
+		font-size: 18px;
+		padding: 30px;
+		height: 500px;
+		float: left;
+    	width: 33.33%;
+		background-color: black;
+		opacity: 0.9;
+		border: 5px solid white;
+		position: relative;
+		top:100px;
+
+	}
+	.row:after {
+    content: "";
+    display: table;
+    clear: both;
+	}
+	
+	.serviceslist{
+		color: white;
+		height: 300px;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+
+	footer {
+		background-color: black;
+		padding: 20px;
+		opacity: .9;
+		font-size: 18px;
+		height: 100px;
+		width: 100%;
+		position: fixed;
+		bottom: 10px;
+		}
+	footer p {
+		text-align: center;
+		color:white;
+	}
